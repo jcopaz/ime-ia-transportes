@@ -11,6 +11,7 @@ Autor: Júlio César de Oliveira Paz
 | Apresentação (HTML5) | <https://jcopaz.github.io/ime-ia-transportes/> |
 | Artigo (short paper, PDF) | [`artigo.pdf`](artigo.pdf) |
 | Código do estudo | [`codigo/`](codigo/) |
+| Demonstração (Streamlit, dados sintéticos) | <https://ime-ia-transportes.streamlit.app> |
 
 ## O problema
 
