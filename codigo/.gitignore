@@ -1,0 +1,12 @@
+# Dados da ferrovia estudada: confidenciais, nunca versionar
+*.xlsx
+*.csv
+*.pkl
+*.joblib
+*.json
+dados/
+data/
+outputs/
+__pycache__/
+.pytest_cache/
+.venv/
