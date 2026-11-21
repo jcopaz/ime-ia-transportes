@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# dados confidenciais nunca entram aqui
+*.xlsx
+*.pkl
+*.joblib
