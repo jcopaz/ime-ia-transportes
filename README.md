@@ -69,3 +69,14 @@ python -m pytest tests     # testes
 ## Declaração de uso de IA
 
 Este trabalho foi preparado com o auxílio de IA — Claude (Anthropic) e Codex (OpenAI) —, utilizada no apoio à elaboração do código de tratamento e análise dos dados, com revisão independente do código por uma segunda ferramenta, na construção das figuras e do protótipo de interface e na revisão do texto. Todo o conteúdo foi revisado e corrigido pelo autor: o código foi executado e testado, todos os valores apresentados foram conferidos diretamente nas bases e cada referência foi verificada. A IA é uma ferramenta, não uma autora; a responsabilidade pelo conteúdo é do autor.
+
+## Demonstração interativa (Streamlit)
+
+A pasta [`app/`](app/) traz uma demonstração pública do unifilar de risco, com zoom da malha ao trecho de 1 km, motivos e ação sugerida, além dos resultados agregados do estudo. **A malha e os números do unifilar são sintéticos**, gerados em [`app/dados_sinteticos.py`](app/dados_sinteticos.py); nenhum dado da ferrovia estudada é usado.
+
+```bash
+pip install -r app/requirements.txt
+streamlit run app/streamlit_app.py
+```
+
+Publicação no Streamlit Community Cloud: repositório `jcopaz/ime-ia-transportes`, branch `main`, arquivo principal `app/streamlit_app.py`.
